@@ -1,0 +1,23 @@
+#games-list{
+    max-height: 40vh;
+    overflow-y: auto;
+}
+#form-send {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 auto;
+}
+#send-btn {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+#required-input {
+    color: red;
+    position: absolute;
+    height: 1px;
+    margin-top: 70px;
+}
+.hidden {
+    display: none;
+}
