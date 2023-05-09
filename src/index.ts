@@ -10,7 +10,6 @@ const host = process.env.HOST;
 import router from "./routes";
 import corsOptions from "./config/corsOptions";
 
-app.use(express.urlencoded({extended: true}))
 app.use(express.json());
 app.use(cors(corsOptions));
 app.use(router);
